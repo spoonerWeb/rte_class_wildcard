@@ -1,0 +1,5 @@
+# cat=basic/enable/60; type=boolean; label= Enable FontAwesome integration
+useFontAwesome = 1
+
+# cat=basic/enable/60; type=boolean; label= Enable Glyphicons integration
+useGlyphicons = 1

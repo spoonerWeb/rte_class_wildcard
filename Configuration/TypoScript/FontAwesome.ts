@@ -1,0 +1,1 @@
+RTE.default.proc.allowedClasses := addToList(fa,fa-*)
