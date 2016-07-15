@@ -1,15 +1,22 @@
 {
-    "name": "spooner-web/rte_class_wildcard",
-    "description": "Possibility to set wildcards in the allowed classes for RTE in TYPO3.",
-    "type": "typo3-cms-extension",
-    "require": {
-        "typo3/cms": ">7.6"
-    },
-    "license": "GPL-2.0+",
-    "authors": [
-        {
-            "name": "Thomas Löffler",
-            "email": "loeffler@spooner-web.de"
-        }
-    ]
+  "name": "spooner-web/rte_class_wildcard",
+  "description": "Possibility to set wildcards in the allowed classes for RTE in TYPO3.",
+  "type": "typo3-cms-extension",
+  "require": {
+    "typo3/cms": ">7.6"
+  },
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Thomas Löffler",
+      "email": "loeffler@spooner-web.de",
+      "homepage": "https://spooner-web.de",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SpoonerWeb\\RteClassWildcard\\": "Classes"
+    }
+  }
 }
