@@ -209,10 +209,8 @@ class RteHtmlParser extends OriginalRteHtmlParser {
 														} else {
 															foreach ($this->allowedClasses as $allowedClass) {
 																if (strpos($allowedClass, '*') !== FALSE) {
-																	$regexAllowedClass = '/' . str_replace(
-																			'*', '.*', $allowedClass
-																		) . '/';
-																	if (preg_match($regexAllowedClass, $class) !== FALSE) {
+																	$regexAllowedClass = '/' . str_replace('*', '.*', $allowedClass) . '/';
+																	if (preg_match($regexAllowedClass, $class) > 0) {
 																		$newClasses[] = $class;
 																	}
 																}
