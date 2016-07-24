@@ -3,7 +3,7 @@
   "description": "Possibility to set wildcards in the allowed classes for RTE in TYPO3.",
   "type": "typo3-cms-extension",
   "require": {
-    "typo3/cms": ">7.6"
+    "typo3/cms": "~7.6.0"
   },
   "license": "GPL-2.0+",
   "authors": [
